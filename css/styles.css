@@ -1,11 +1,129 @@
-.main-nav {
-  text-align: center;
+*{
+	box-sizing: border-box;
+	border: 1px solid white;
+	font-family: 'K2D', sans-serif;
 }
 
-.intro {
-  text-align: center;
+/* =======================
+		LINKS
+======================= */
+
+a:link {
+	text-decoration: none;
+	color: grey;
 }
 
-.main {
-  text-align: center;
+a:visited{
+	color: green;
 }
+
+a:hover{
+	color: gold;
+}
+
+a:active {
+	color: purple;
+}
+
+
+/* =======================
+		HEADER
+======================= */
+h1 {
+	text-align: center;
+	font-size: 25px;
+	padding: 0;
+	margin: 5%;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style-type: none;
+	text-align: center;
+	padding: 0;
+}
+
+ul li {
+	padding-bottom: 15px;
+	font-size: 15px;
+	font-weight: 800;
+}
+
+
+.profile {
+	height: 80%;
+	width: 100%;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+p {
+	text-align: center;
+}
+
+/* =======================
+		MAIN
+======================= */
+h2 {
+	text-align: center;
+	font-size: 15px;
+	padding-bottom: 15px;
+}
+
+.resize {
+	height: 80%;
+	width: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.bold {
+	font-style: bold;
+	text-align: center;
+	font-size: 20px;
+}
+
+.info {
+	text-align: center;
+	padding-top: 5px;
+}
+
+/* =======================
+		FOOTER
+======================= */
+.footer1 {
+	float: left;
+	font-weight: bold;
+}
+
+.footer2 {
+	float: right;
+	font-weight: bold;
+}
+
+/* =======================
+		MEDIA QUERIES
+======================= */
+@media (min-width: 768px){
+	h1 {
+		font-size: 2em;
+	}
+
+	ul {
+		list-style-type: none;
+
+	}
+
+	ul li {
+		font-size: 1.25em;
+		display: inline;
+		padding-right: 1.25em;
+	}
+
+	.intro {
+		display:inline-block;
+	}
