@@ -128,6 +128,11 @@ h2 {
 	margin-bottom: 300px;
 }
 
+p {
+	display: block;
+	margin-top: 40px;
+}
+
 	.profile {
 		height: 80%;
 		width: 50%;
@@ -151,6 +156,6 @@ article {
 	width: 45%;
 }
 
-.skills {
-	
+.clearfix {
+	clear: both;
 }
