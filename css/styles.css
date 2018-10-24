@@ -1,6 +1,6 @@
 *{
 	box-sizing: border-box;
-	border: 1px solid blue;
+	border: 1px solid white;
 	font-family: 'K2D', sans-serif;
 }
 
@@ -133,6 +133,10 @@ p {
 	margin-top: 40px;
 }
 
+h2 {
+	font-size: 20px;
+}
+
 	.profile {
 		height: 80%;
 		width: 50%;
@@ -143,6 +147,12 @@ p {
 		float: right;
 		display: inline;
 	}
+
+main {
+	margin-left:auto;
+	margin-right:auto;
+
+}
 
 	#intro {
 		display: inline-block;
@@ -158,4 +168,24 @@ article {
 
 .clearfix {
 	clear: both;
+}
+
+.slim {
+	margin-top: -5px;
+	padding-right: 150px;
+	padding-left: 150px;
+}
+
+hr {
+	border: .5px solid lightgrey;
+}
+
+.footer1 {
+	margin-top: 10px;
+	margin-bottom: 80px;
+}
+
+.footer2 {
+	margin-top: 10px;
+	margin-bottom: 80px;
 }
