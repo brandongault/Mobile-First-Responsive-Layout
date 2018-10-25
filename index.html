@@ -10,26 +10,26 @@
 
 <header>
   <div>
-    <h1>Brandon Gault</h1>
+    <h1 id="top">Brandon Gault</h1>
       <nav>
         <ul>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="portfolio.html">PORTFOLIO</a></li>
-          <li><a href="skills.html">SKILLS</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
+          <li><a href="#top">HOME</a></li>
+          <li><a href="#portfolio">PORTFOLIO</a></li>
+          <li><a href="#skills">SKILLS</a></li>
+          <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
   </div>
 
   <div class="intro">
     <img id="intro" src="images/responsive-layout-profile.png" alt="a mockup profile picture">
-    <p>Hi! I'm an aspiring front-end developer who is currently working on my techdegree at Treehouse. Below is my portfolio and some of the projects I've done. Feel free to take a look!</p>
+    <p class="bio">Hi! I'm an aspiring front-end developer who is currently working on my techdegree at Treehouse. Below is my portfolio and some of the projects I've done. Feel free to take a look!</p>
   </div>
 </header>
 
   <body>
     <main>
-      <h2>Portfolio</h2>
+      <h2 id="portfolio">Portfolio</h2>
 
         <article>
          <img class="resize" src="images/portfolio-1.png" alt="a mockup picture of the marketing page">
@@ -67,21 +67,31 @@
       </article>
 
         <div class="clearfix">
-          <h3 class="bold">Skills</h3>
-          <p class="slim">Here you can see the languages I'm currently learning or already have experience with.</p>
+          <h3 id="skills" class="bold">Skills</h3>
+          <p class="slim">HTML CSS JAVASCRIPT</p>
         </div>
 
         <div>
-          <h3 class="bold">Contact</h3>
+          <h3 id="contact" class="bold">Contact</h3>
           <p class="slim">If you'd like to talk or need more information about what I'm currently working on, feel free to contact me!</p>
-          <p class "info">Phone +1(111)555-1234</p>
-          <p class "info">Email email@yoursite.com</p>
+          <p class="info1">Phone +1(111)555-1234</p>
+          <p class="info2">Email email@yoursite.com</p>
         </div>
     </main>
 <hr>
     <footer>
       <p class="footer1">Brandon Gault</p>
-      <p class="footer2">BACK TO TOP</p>
+        <div>
+          <p class="footer2"><a href="#top">BACK TO TOP</a></p>
+        </div>
+        <div class="footnav">
+          <ul>
+            <li><a href="#top">HOME</a></li>
+            <li><a href="#portfolio">PORTFOLIO</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+          </ul>
+        </div>
     </footer>
 
   </body>
