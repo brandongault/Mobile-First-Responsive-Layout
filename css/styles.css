@@ -94,7 +94,7 @@ h2 {
 }
 
 .bold {
-	font-style: bold;
+	font-weight: 900;
 	text-align: center;
 	font-size: 20px;
 }
@@ -256,11 +256,12 @@ hr {
 
 	ul li {
 		float: right;
-		padding: 10px;
+		padding: 5px;
 	}
 
 	nav {
-		margin-top:50px;
+		margin-top: 50px;
+		margin-right: 45px;
 	}
 
 	#intro {
@@ -279,8 +280,6 @@ hr {
 
 	main {
 		text-align: center;
-		margin-left: 0;
-		margin-right: 0;
 	}
 
 	#skills {
@@ -297,11 +296,6 @@ hr {
 	}
 
 	article {
-		width: 30%;
-	}
-
-	.center {
-		padding-right: 20px;
-		padding-left: 20px;
+		width: 33.33%;
 	}
 }
