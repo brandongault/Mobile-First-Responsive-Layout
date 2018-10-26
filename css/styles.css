@@ -256,6 +256,7 @@ hr {
 
 	ul li {
 		float: right;
+		padding: 10px;
 	}
 
 	nav {
@@ -263,14 +264,23 @@ hr {
 	}
 
 	#intro {
-		margin-left: 50px;
+		width: auto;
+		height: auto;
 		margin-right: 50px;
 	}
 
 	.bio {
 		margin-top: 20px;
-		margin-right: 150px;
+		margin-right: 20px;
+		margin-left: 50px;
 		float: left;
+		width: 450px;
+	}
+
+	main {
+		text-align: center;
+		margin-left: 0;
+		margin-right: 0;
 	}
 
 	#skills {
@@ -286,4 +296,12 @@ hr {
 		word-spacing: 50px;
 	}
 
+	article {
+		width: 30%;
+	}
+
+	.center {
+		padding-right: 20px;
+		padding-left: 20px;
+	}
 }
