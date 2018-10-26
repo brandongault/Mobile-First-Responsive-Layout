@@ -4,6 +4,10 @@
 	font-family: 'K2D', sans-serif;
 }
 
+body {
+	margin: auto;
+}
+
 /* =======================
 		LINKS
 ======================= */
@@ -29,6 +33,10 @@ a:active {
 /* =======================
 		HEADER
 ======================= */
+.header {
+	text-align: center;
+}
+
 h1 {
 	text-align: center;
 	font-size: 25px;
@@ -111,8 +119,9 @@ h2 {
 }
 
 .footnav {
-	display: hide;
+	display: none;
 }
+
 
 /* =======================
 		MEDIA QUERIES
@@ -236,13 +245,45 @@ hr {
 	float: right;
 }
 
+.backtotop {
+	display: none;
+}
+
 @media (min-width: 1024px){
 	h1 {
 		float: left;
-		display: inline;
 	}
 
 	ul li {
 		float: right;
 	}
+
+	nav {
+		margin-top:50px;
+	}
+
+	#intro {
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+
+	.bio {
+		margin-top: 20px;
+		margin-right: 150px;
+		float: left;
+	}
+
+	#skills {
+		margin-top: 60px;
+	}
+
+	.footer1 {
+		margin-left: 50px;
+	}
+
+	.footnav {
+		margin-right: 50px;
+		word-spacing: 50px;
+	}
+
 }
